@@ -1,4 +1,4 @@
-QC Hackathon Spring 2019
+#QC Hackathon Spring 2019
 Team member:
 1. Guohua Zhang
 2. Yifei Du
