@@ -5,4 +5,8 @@ Team member:
 3. Hang Zheng
 4. Yafang Zhao
 5. Zhenhua Cai
+6. Yue Zuo
 
+Project:
+1. Frontend: HTML, JS, CSS, BootStrap.
+2. Backend: A maven project using Servlet.
