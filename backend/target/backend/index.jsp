@@ -32,7 +32,7 @@
   <nav id="sidebar-wrapper">
     <ul class="sidebar-nav">
       <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="js-scroll-trigger" href="#page-top">Perfect Store</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#page-top">Home</a>
@@ -44,9 +44,6 @@
         <a class="js-scroll-trigger" href="#services">Services</a>
       </li>
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="sidebar-nav-item">
         <a class="js-scroll-trigger" href="#contact">Contact</a>
       </li>
     </ul>
@@ -55,7 +52,7 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Stylish Portfolio</h1>
+      <h1 class="mb-1">Find Your Desired Store</h1>
       <h3 class="mb-5">
         <em>Let your dream come true</em>
       </h3>
@@ -69,10 +66,10 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+          <h2>This is the perfect place to find your next store!</h2>
           <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
             <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Start Your Journey</a>
         </div>
       </div>
     </div>
@@ -128,22 +125,13 @@
     </div>
   </section>
 
-<%--  <!-- Call to Action -->--%>
-<%--  <section class="content-section bg-primary text-white">--%>
-<%--    <div class="container text-center">--%>
-<%--      <h2 class="mb-4">The buttons below are impossible to resist...</h2>--%>
-<%--      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>--%>
-<%--      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>--%>
-<%--    </div>--%>
-<%--  </section>--%>
-
   <!-- Map -->
   <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;aq=0&amp;oq=QueensCollege&amp;sll=40.735389,-73.814835&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;aq=0&amp;oq=QueensCollege&amp;sll=40.735389,-73.814835&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
     <br />
-    <small>
-      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;aq=0&amp;oq=twitter&amp;sll=40.735389,-73.814835&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-    </small>
+<%--    <small>--%>
+<%--      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;aq=0&amp;oq=twitter&amp;sll=40.735389,-73.814835&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;t=m&amp;z=15&amp;iwloc=A"></a>--%>
+<%--    </small>--%>
   </section>
 
   <!-- Footer -->
