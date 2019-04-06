@@ -11,7 +11,8 @@ import java.io.IOException;
 )
 public class ReportServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        //TODO: Handle request, analyse data.
+        request.getRequestDispatcher("report.jsp").forward(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

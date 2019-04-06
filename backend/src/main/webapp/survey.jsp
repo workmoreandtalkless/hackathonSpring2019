@@ -25,7 +25,10 @@
                         <a class="nav-link" href="index.jsp#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="survey.jsp">Searcher</a>
+                        <form action="HandleRequestServlet">
+                            <input type="hidden" name="stage" value="0">
+                            <input type="submit" class="btn btn-dark btn-xl js-scroll-trigger" value="Searcher">
+                        </form>
                     </li>
                 </ul>
             </div>
