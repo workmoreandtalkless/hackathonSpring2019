@@ -119,7 +119,10 @@
           <h2>This is the perfect place to find your next store!</h2>
           <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
             <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Start Your Journey</a>
+          <form action="HandleRequestServlet">
+            <input type="hidden" name="stage" value="0">
+            <input type="submit" class="btn btn-dark btn-xl js-scroll-trigger" value="Start Your Journey">
+          </form>
         </div>
       </div>
     </div>

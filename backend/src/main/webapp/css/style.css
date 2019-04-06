@@ -1,0 +1,18 @@
+#question{
+    margin:50px auto;
+    padding:20px;
+    background-color:skyblue;
+    text-align: center;
+    width:fit-content;
+    border-radius: 10px;
+}
+#options{
+    width:fit-content;
+    margin:10px auto;
+    padding:10px;
+    text-align: left;
+}
+input.option{
+    margin:10px auto;
+
+}
