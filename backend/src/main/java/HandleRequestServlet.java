@@ -41,10 +41,12 @@ public class HandleRequestServlet extends HttpServlet {
         questions[1]="Which category do you want?";
         questions[2]="What's the total amount do you want to invest?";
         questions[3]="How much do you want to pay rent?";
-        options[0]=new String[3];
-        options[0][0]="Flushing";
-        options[0][1]="Bayside";
+        options[0]=new String[5];
+        options[0][0]="Astoria";
+        options[0][1]="Elmhurst";
         options[0][2]="Woodside";
+        options[0][3]="Flushing";
+        options[0][4]="long Island City";
 
         options[1]=new String[2];
         options[1][0]="Coffee";
