@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript">
+            google.load("visualization", "1.1", {packages:["bar"]});
+            google.setOnLoadCallback(drawChart);
+            function drawChart() {
+                var data = google.visualization.arrayToDataTable([
+                                                                  ['Location', 'Rent (*$1000)', 'Same type Business number',],
+                                                                  ['location 1', 6, 3],
+                                                                  ['location 2', 11, 5],
+                                                                  ['location 3', 2.2, 2],
+                                                                  ['location 4', 1, 0]
+                                                                  ]);
+
+                                                                  var options = {
+                                                                      chart: {
+                                                                          title: 'Business Start-up Analysis report',
+                                                                          subtitle: 'Location and Competition:',
+                                                                      }
+                                                                  };
+
+                                                                  var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+                                                                  chart.draw(data, options);
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

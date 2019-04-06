@@ -42,6 +42,8 @@ public class ReportServlet extends HttpServlet {
             }
         }
         request.setAttribute("address", address);
+        request.setAttribute("total", answers[2]);
+        request.setAttribute("rent", answers[3]);
 
         request.getRequestDispatcher("report.jsp").forward(request, response);
     }
