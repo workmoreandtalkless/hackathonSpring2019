@@ -56,24 +56,10 @@
       <h3 class="mb-5">
         <em>Let your dream come true</em>
       </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#services">Find Out More</a>
     </div>
     <div class="overlay"></div>
   </header>
-
-  <!-- About -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <h2>This is the perfect place to find your next store!</h2>
-          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
-            <a href="https://unsplash.com/">Unsplash</a>!</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Start Your Journey</a>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Services -->
   <section class="content-section bg-primary text-white text-center" id="services">
@@ -125,6 +111,19 @@
     </div>
   </section>
 
+  <!-- About -->
+  <section class="content-section bg-light" id="about">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2>This is the perfect place to find your next store!</h2>
+          <p class="lead mb-5">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+            <a href="https://unsplash.com/">Unsplash</a>!</p>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Start Your Journey</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Map -->
   <section id="contact" class="map">
     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;aq=0&amp;oq=QueensCollege&amp;sll=40.735389,-73.814835&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Queens+College,+Kissena+Blvd,Flushing,+NY&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
