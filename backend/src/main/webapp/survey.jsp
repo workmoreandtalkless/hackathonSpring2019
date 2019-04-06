@@ -45,7 +45,6 @@
                 <%
                     int size = options.length;
                     for(int i =0;i<size;++i){%>
-
                         <input name="answer" type="radio" value="<%=options[i]%>" class="option"
                                <%
                             if(i==0) %>checked<%

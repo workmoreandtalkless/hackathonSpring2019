@@ -10,7 +10,12 @@
     <head>
         <title>Report</title>
     </head>
+
     <body>
-        Comming Soon
+        <% String address= (String)request.getAttribute("address");%>
+        <section id="contact" class="map">
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=<%=address%>&amp;aq=0&amp;oq=QueensCollege&amp;ie=UTF8&amp;hq=<%=address%>&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+            <br />
+        </section>
     </body>
 </html>

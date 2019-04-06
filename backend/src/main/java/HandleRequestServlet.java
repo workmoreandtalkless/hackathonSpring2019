@@ -14,13 +14,14 @@ public class HandleRequestServlet extends HttpServlet {
     private String[] answers = new String[4];
     private static String[] questions = new String[4];
     private static String[][] options = new String[4][];
-    {
+    static{
         initQuestions();
     }
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         int value =Integer.parseInt(request.getParameter("stage"));
         String ans = request.getParameter("answer");
         if(value!=0) answers[value-1]=ans;
+
         HttpSession session = request.getSession();
         session.setAttribute("answers", answers);
         if(value<4){
@@ -37,16 +38,15 @@ public class HandleRequestServlet extends HttpServlet {
         doPost(request, response);
     }
     private static void initQuestions(){
-        questions[0]="Which block do you want?";
-        questions[1]="Which category do you want?";
+        questions[0]="Choose Your Excepted Location: ";
+        questions[1]="Choose Your Excepted category:";
         questions[2]="What's the total amount do you want to invest?";
         questions[3]="How much do you want to pay rent?";
-        options[0]=new String[5];
+        options[0]=new String[4];
         options[0][0]="Astoria";
         options[0][1]="Elmhurst";
         options[0][2]="Woodside";
         options[0][3]="Flushing";
-        options[0][4]="long Island City";
 
         options[1]=new String[2];
         options[1][0]="Coffee";
