@@ -8,7 +8,7 @@ Team member:
 6. Yue Zuo
 
 Project:
-1. Frontend: HTML, JS, CSS, BootStrap.
+1. Frontend: HTML, JS, CSS, BootStrap, JSP.
 2. Backend: A maven project using Servlet.
 
 # TODO
