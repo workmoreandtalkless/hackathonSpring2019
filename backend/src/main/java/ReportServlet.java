@@ -18,7 +18,7 @@ import java.net.URL;
 public class ReportServlet extends HttpServlet {
     private static final int SIZE_OF_FREE_STORES = 5;
     private static final String[] freeStores = new String[SIZE_OF_FREE_STORES];
-    private static final String KEY="AIzaSyCKGecbdWTOh971l1-9j-ZeQPnMyf2rDjM";
+    private static final String KEY="";
     static{
         freeStores[0]="6115+217th+St+Flushing+NY+11364";
         freeStores[1]="8008+135th+St+Jamaica+NY+11435";
