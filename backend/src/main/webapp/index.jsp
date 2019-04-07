@@ -151,7 +151,7 @@
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white" href="https://github.com/workmoreandtalkless/hackathonSpring2019">
             <i class="icon-social-github"></i>
           </a>
         </li>
